@@ -1,5 +1,4 @@
-import {projectId} from 'module1.js';
-import {id} from "module1.js";
+import {projectId as pid, id} from 'module1.js';
 
 console.log("Logging out a message from inside base.js!");
-console.log(`Project id is ${projectId} while the id is ${id}`);
+console.log(`Project id is ${pid} while the id is ${id}`);
