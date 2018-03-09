@@ -22,6 +22,7 @@ class Task{
     getCount() {
         return 60;
     }
+    static zero() { return 0;}
 }
 let task = new Task;
 console.log(typeof Task);
@@ -43,3 +44,5 @@ let more = new MoreThanASimpleTask();
 
 console.log(more.getId());
 console.log(more.getCount());
+console.log('----------------------');
+console.log(Task.zero());
