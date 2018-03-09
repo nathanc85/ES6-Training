@@ -31,7 +31,7 @@ console.log(typeof task);
 class MoreThanASimpleTask extends Task {
     constructor() {
         super();
-        console.log('Inside the MoreThanASimpleTask constructor.')
+        console.log('Inside the MoreThanASimpleTask constructor.');
     }
     getId() {
         return 50;
